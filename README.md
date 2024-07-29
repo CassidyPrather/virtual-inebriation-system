@@ -15,6 +15,10 @@ An avatar system for applying status effects to users in VRChat.
 4. Instantiate `Packages/Avatar Syringe/Syringe` to the root of the avatar.
 5. More setup TBD...
 
+## Conduct
+
+This package contains content that will be disorienting and unpleasant for many users. Please content-tag your avatar appropriately and ask for consent before using the system on anyone.
+
 ## Legal
 
 Copyright 2024 Cassidy Prather <pratherea@gmail.com>
