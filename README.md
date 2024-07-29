@@ -2,18 +2,35 @@
 
 An avatar system for applying status effects to users in VRChat.
 
+This is an advanced, personal system, and I will not be providing any technical support.
+
 ## Dependencies
 
-* [VRChat Creator Companion (VCC)](https://vcc.docs.vrchat.com/).
-* More tbd...
+### Packages
+
+VRChat packages must be managed with the [VRChat Creator Companion (VCC)](https://vcc.docs.vrchat.com/).
+VRLabs VCC listings are best aquired through [the organization website](https://vrlabs.dev/packages/).
+
+* [FinalIK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290) 2.3 **or** [VRLabs FinalIK Stub (no testing in editor)](https://github.com/VRLabs/Final-IK-Stub) 1.9.3
+* [Contact Tracker](https://github.com/VRLabs/Contact-Tracker) 1.4.7
+* [Selective Animation](https://github.com/VRLabs/Selective-Animation) 1.0.1
+* [VRCFury](https://vrcfury.com/) 1.991.0
+
+### Asset Bundles (Optional)
+
+These dependencies must be "drag and dropped" into the root project's asset directory. They are unmanaged by package managers, and so will not recieve automatic updates.
+
+* [Hypno Pack (VRChat)](https://illuminatedvr.gumroad.com/l/hypnopack) V1 (_Required for basic hypnosis effect._)
+* [【VRChatアバターギミック】DizzyMaker](https://zerofactory.booth.pm/items/5209239) 1.1.0 (_Required for blackout effect._)
 
 ## Installation
 
 1. Install the packages in [#Dependencies](#dependencies)
 2. [Add this package's listing to the VCC.](https://cassidyprather.github.io/avatar-syringe/)
 3. Add this package to the project via the VCC.
-4. Instantiate `Packages/Avatar Syringe/Syringe` to the root of the avatar.
-5. More setup TBD...
+4. Instantiate `Packages/Virtual Inebriation System/VIS` on the root of the avatar.
+5. Replace references to targeting GameObjects with bones on your avatar.
+6. Delete modules without required dependencies in the prefab override on the avatar.
 
 ## Conduct
 
