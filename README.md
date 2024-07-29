@@ -29,7 +29,7 @@ These dependencies must be "drag and dropped" into the root project's asset dire
 2. [Add this package's listing to the VCC.](https://cassidyprather.github.io/avatar-syringe/)
 3. Add this package to the project via the VCC.
 4. Instantiate `Packages/Virtual Inebriation System/VIS` on the root of the avatar.
-5. Replace references to targeting GameObjects with bones on your avatar.
+5. Override `VIS/Contact Tracker/Tracking Points.Parent Constraint.Sources` with a location on your avatar (e.g. an empty game object with a static offset from your hand).
 6. Delete modules without required dependencies in the prefab override on the avatar.
 
 ## Conduct
