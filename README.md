@@ -1,4 +1,4 @@
-# Avatar Syringe
+# Virtual Inebriation System
 
 An avatar system for applying status effects to users in VRChat.
 
