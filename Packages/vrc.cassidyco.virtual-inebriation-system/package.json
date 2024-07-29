@@ -7,7 +7,9 @@
   "vrchatVersion": "2022.1.1",
   "vpmDependencies": {
     "com.vrchat.avatars": "3.6.1",
-    "com.vrcfury.vrcfury": "1.974.0"
+    "com.vrcfury.vrcfury": "1.991.0",
+    "dev.vrlabs.contact-tracker": "1.4.7",
+    "dev.vrlabs.selective-animation": "1.0.1"
   },
   "author": {
     "name": "Cassidy Prather",
