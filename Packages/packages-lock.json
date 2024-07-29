@@ -198,14 +198,26 @@
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       }
     },
-    "jp.lilxyzw.liltoon": {
-      "version": "file:jp.lilxyzw.liltoon",
+    "dev.vrlabs.contact-tracker": {
+      "version": "file:dev.vrlabs.contact-tracker",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
     },
-    "vrc.cassidyco.avatar-syringe": {
-      "version": "file:vrc.cassidyco.avatar-syringe",
+    "dev.vrlabs.instancer": {
+      "version": "file:dev.vrlabs.instancer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "dev.vrlabs.selective-animation": {
+      "version": "file:dev.vrlabs.selective-animation",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "vrc.cassidyco.virtual-inebriation-system": {
+      "version": "file:vrc.cassidyco.virtual-inebriation-system",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

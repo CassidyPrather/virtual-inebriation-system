@@ -6,20 +6,23 @@
     "vrchat.blackstartx.gesture-manager": {
       "version": "3.9.1"
     },
-    "com.dreadscripts.controllereditor": {
-      "version": "3.2.1"
-    },
-    "com.dreadscripts.hierarchyplus": {
-      "version": "1.2.1"
-    },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
     },
-    "com.vrcfury.vrcfury": {
-      "version": "1.974.0"
+    "com.dreadscripts.controllereditor": {
+      "version": "3.3.1"
     },
-    "jp.lilxyzw.liltoon": {
-      "version": "1.7.3"
+    "com.dreadscripts.hierarchyplus": {
+      "version": "1.3.0"
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.991.0"
+    },
+    "dev.vrlabs.contact-tracker": {
+      "version": "1.4.7"
+    },
+    "dev.vrlabs.selective-animation": {
+      "version": "1.0.1"
     }
   },
   "locked": {
@@ -39,25 +42,37 @@
         "com.vrchat.avatars": ">=3.5.2 < 3.7.X"
       }
     },
-    "com.dreadscripts.controllereditor": {
-      "version": "3.2.1",
-      "dependencies": {}
-    },
-    "com.dreadscripts.hierarchyplus": {
-      "version": "1.2.1",
-      "dependencies": {}
-    },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
       "dependencies": {}
     },
-    "com.vrcfury.vrcfury": {
-      "version": "1.974.0",
+    "com.dreadscripts.controllereditor": {
+      "version": "3.3.1",
       "dependencies": {}
     },
-    "jp.lilxyzw.liltoon": {
-      "version": "1.7.3",
+    "com.dreadscripts.hierarchyplus": {
+      "version": "1.3.0",
       "dependencies": {}
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.991.0",
+      "dependencies": {}
+    },
+    "dev.vrlabs.contact-tracker": {
+      "version": "1.4.7",
+      "dependencies": {
+        "dev.vrlabs.instancer": ">=1.0.2"
+      }
+    },
+    "dev.vrlabs.instancer": {
+      "version": "1.0.2",
+      "dependencies": {}
+    },
+    "dev.vrlabs.selective-animation": {
+      "version": "1.0.1",
+      "dependencies": {
+        "dev.vrlabs.instancer": ">=1.0.2"
+      }
     }
   }
 }
