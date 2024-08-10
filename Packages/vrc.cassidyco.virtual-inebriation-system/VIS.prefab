@@ -9,6 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6948667094952431280}
+  - component: {fileID: 6698836085958241069}
+  - component: {fileID: 3907955875088689933}
+  - component: {fileID: 6371304461300716018}
+  - component: {fileID: 1389369355891138458}
   m_Layer: 0
   m_Name: VIS
   m_TagString: Untagged
@@ -34,6 +38,242 @@ Transform:
   - {fileID: 5117044807800257398}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6698836085958241069
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356435576641482412}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 43030ef43033b8c43af7ebde991124c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3907955875088689933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356435576641482412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.991.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1512118319144239104
+  references:
+    version: 2
+    RefIds:
+    - rid: 1512118319144239104
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 43030ef43033b8c43af7ebde991124c5|Packages/vrc.cassidyco.virtual-inebriation-system/Animation/VIS_FX.controller
+            objRef: {fileID: 9100000, guid: 43030ef43033b8c43af7ebde991124c5, type: 2}
+          type: 5
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 780f01fe9fba4834b80f4ad660a019bc|Packages/dev.vrlabs.contact-tracker/Contact
+              Tracker FX.controller
+            objRef: {fileID: 9100000, guid: 780f01fe9fba4834b80f4ad660a019bc, type: 2}
+          type: 5
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 179c2d9ff07a3fb4fa3a3022e9a2f25b|Packages/vrc.cassidyco.virtual-inebriation-system/Menu/VIS_Root_menu.asset
+            objRef: {fileID: 11400000, guid: 179c2d9ff07a3fb4fa3a3022e9a2f25b, type: 2}
+          prefix: VIS
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: dd4f1bfd908523240b418b40c7e748fa|Packages/vrc.cassidyco.virtual-inebriation-system/VIS_Param.asset
+            objRef: {fileID: 11400000, guid: dd4f1bfd908523240b418b40c7e748fa, type: 2}
+        smoothedPrms: []
+        globalParams:
+        - VIS/Trance
+        - VIS/Venom
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
+--- !u!114 &6371304461300716018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356435576641482412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.991.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1512118319144239108
+  references:
+    version: 2
+    RefIds:
+    - rid: 1512118319144239108
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: VIS
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b471b20af81000d478f70ac1d003b393|Packages/vrc.cassidyco.virtual-inebriation-system/Icons/aura.png
+          objRef: {fileID: 2800000, guid: b471b20af81000d478f70ac1d003b393, type: 3}
+--- !u!114 &1389369355891138458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356435576641482412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.991.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1512118319144239105
+  references:
+    version: 2
+    RefIds:
+    - rid: 1512118319144239105
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: VIS/Preview
+        state:
+          actions:
+          - rid: 1512118319144239106
+          - rid: 1512118319144239107
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 183aa6913134e0e4595789b9f61f1ced|Packages/vrc.cassidyco.virtual-inebriation-system/Icons/magnifying-glass.png
+          objRef: {fileID: 2800000, guid: 183aa6913134e0e4595789b9f61f1ced, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 1512118319144239106
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 6534626408109572610}
+        mode: 0
+    - rid: 1512118319144239107
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 8780818822771393698}
+        mode: 0
 --- !u!1 &3270616827384279649
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,13 +344,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2690611160313045907}
+  - component: {fileID: 2779601926126099851}
+  - component: {fileID: 8078247222611251429}
   m_Layer: 0
   m_Name: HypnosisView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2690611160313045907
 Transform:
   m_ObjectHideFlags: 0
@@ -126,6 +368,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5117044807800257398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2779601926126099851
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6451256526191780795}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6cd04e229877545438a66e813e9754a1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &8078247222611251429
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6451256526191780795}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7613509260370947543
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5090597065519641146
 Transform:
   m_ObjectHideFlags: 0
@@ -219,11 +511,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7212160452026156784, guid: b14e69caa5b74824cb41e3203b030e62,
-        type: 3}
-      propertyPath: parameter
-      value: VIS/IsSelected
       objectReference: {fileID: 0}
     - target: {fileID: 7212160452026156784, guid: b14e69caa5b74824cb41e3203b030e62,
         type: 3}
@@ -313,6 +600,12 @@ PrefabInstance:
 --- !u!4 &3143470297600585650 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7212160451562384529, guid: b14e69caa5b74824cb41e3203b030e62,
+    type: 3}
+  m_PrefabInstance: {fileID: 5731222143631770403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8780818822771393698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3914428653531563905, guid: b14e69caa5b74824cb41e3203b030e62,
     type: 3}
   m_PrefabInstance: {fileID: 5731222143631770403}
   m_PrefabAsset: {fileID: 0}
@@ -435,6 +728,12 @@ PositionConstraint:
   m_Sources:
   - sourceTransform: {fileID: 0}
     weight: 1
+--- !u!1 &6534626408109572610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 962766186839155576, guid: 7a4797cc401c946f18114f4127592ddd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6337627518434812282}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6534626408109572621 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 962766186839155575, guid: 7a4797cc401c946f18114f4127592ddd,

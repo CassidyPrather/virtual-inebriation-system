@@ -12,4 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: VIS_Param
   m_EditorClassIdentifier: 
-  parameters: []
+  parameters:
+  - name: VIS/Trance
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: VIS/Venom
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: VIS/Reset
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: ContactTracker/Control
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
