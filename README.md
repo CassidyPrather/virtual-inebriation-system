@@ -21,10 +21,10 @@ VRLabs VCC listings are best aquired through [the organization website](https://
 These dependencies must be "drag and dropped" into the root project's asset directory. They are unmanaged by package managers, and so will not recieve automatic updates.
 
 * [Hypno Pack (VRChat)](https://illuminatedvr.gumroad.com/l/hypnopack) V1 (_Required for basic hypnosis effect._)
-** [ScreenSpace_UberShader](https://github.com/Leviant/ScreenSpace_Ubershader) 2.8.1 (_Odd installation, just drag and drop the source code into a new folder `Leviant/ScreenSpace_UberShader`_)
-** This package is required for a mask texture sprite sheet. It's imported at a ridiculous resolution. Turn that down to improve everyone's VRAM, please.
+    * [ScreenSpace_UberShader](https://github.com/Leviant/ScreenSpace_Ubershader) 2.8.1 (_Odd installation, just drag and drop the source code into a new folder `Leviant/ScreenSpace_UberShader`_)
+    * This package is required for a mask texture sprite sheet. It's imported at a ridiculous resolution. Turn that down to improve everyone's VRAM, please.
 * [【VRChatアバターギミック】DizzyMaker](https://zerofactory.booth.pm/items/5209239) 1.1.0 (_Required for blackout effect._)
-** [AmplifyScreenSpaceShader](https://vrcmods.com/download/4300) (_Odd package, don't ask me why ZeroFactory did this._)
+    * [AmplifyScreenSpaceShader](https://vrcmods.com/download/4300) (_Odd package, don't ask me why ZeroFactory did this._)
 
 
 ## Installation
