@@ -5,3 +5,5 @@
 
 # My Packages
 !vrc.cassidyco.virtual-inebriation-system
+!com.vrchat.core.*/
+com.vrchat.core.vpm-resolver/*

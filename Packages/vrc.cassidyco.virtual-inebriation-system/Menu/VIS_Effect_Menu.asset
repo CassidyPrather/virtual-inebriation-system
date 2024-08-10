@@ -17,7 +17,7 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: 0c9794433a359ba4eb06255740307191, type: 3}
     type: 102
     parameter:
-      name: 
+      name: VIS/Trance
     value: 1
     style: 0
     subMenu: {fileID: 0}
@@ -27,7 +27,7 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: d4eb25e4a23fd8b4c8ac0683d6864380, type: 3}
     type: 102
     parameter:
-      name: 
+      name: VIS/Venom
     value: 1
     style: 0
     subMenu: {fileID: 0}

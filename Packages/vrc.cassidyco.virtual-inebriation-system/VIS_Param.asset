@@ -13,12 +13,17 @@ MonoBehaviour:
   m_Name: VIS_Param
   m_EditorClassIdentifier: 
   parameters:
-  - name: VIS/Trance
+  - name: ContactTracker/Control
     valueType: 2
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: VIS/Venom
+  - name: VIS/IsSelected
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: VIS/Infection
     valueType: 2
     saved: 0
     defaultValue: 0
@@ -28,7 +33,12 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: ContactTracker/Control
+  - name: VIS/Trance
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: VIS/Venom
     valueType: 2
     saved: 0
     defaultValue: 0

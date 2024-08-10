@@ -17,7 +17,7 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: 6fbd320e32e1cd041a7b9184717347d0, type: 3}
     type: 102
     parameter:
-      name: 
+      name: VIS/Infection
     value: 1
     style: 0
     subMenu: {fileID: 0}
@@ -33,23 +33,23 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Preview
-    icon: {fileID: 2800000, guid: 183aa6913134e0e4595789b9f61f1ced, type: 3}
-    type: 102
+  - name: Reset
+    icon: {fileID: 2800000, guid: 614295791de05d64fadc4d94b01dbfa4, type: 3}
+    type: 101
     parameter:
-      name: 
+      name: VIS/Reset
     value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Reset
-    icon: {fileID: 2800000, guid: 614295791de05d64fadc4d94b01dbfa4, type: 3}
-    type: 102
+  - name: Effects
+    icon: {fileID: 2800000, guid: 1047c92e1b902514f9a566417c7da96a, type: 3}
+    type: 103
     parameter:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 0}
+    subMenu: {fileID: 11400000, guid: 67ca97fda6ec31749951988b3bb72519, type: 2}
     subParameters: []
     labels: []
