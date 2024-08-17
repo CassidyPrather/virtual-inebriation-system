@@ -215,9 +215,7 @@ MonoBehaviour:
         version: 3
         name: VIS/Preview
         state:
-          actions:
-          - rid: 1512118319144239106
-          - rid: 1512118319144239107
+          actions: []
         saved: 0
         slider: 0
         sliderInactiveAtZero: 0
@@ -238,9 +236,11 @@ MonoBehaviour:
           objRef: {fileID: 2800000, guid: 183aa6913134e0e4595789b9f61f1ced, type: 3}
         enableDriveGlobalParam: 0
         driveGlobalParam: 
-        separateLocal: 0
+        separateLocal: 1
         localState:
-          actions: []
+          actions:
+          - rid: 3561542867507740672
+          - rid: 3561542867507740673
         hasTransition: 0
         transitionStateIn:
           actions: []
@@ -260,7 +260,7 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
-    - rid: 1512118319144239106
+    - rid: 3561542867507740672
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 1
@@ -268,7 +268,7 @@ MonoBehaviour:
         androidActive: 0
         obj: {fileID: 6534626408109572610}
         mode: 0
-    - rid: 1512118319144239107
+    - rid: 3561542867507740673
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 1
